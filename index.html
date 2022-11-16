@@ -4,15 +4,102 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Deadpool</title>
+    <style media="screen">
+      div.nav-bar {
+        padding-bottom: 10px;
+      }
+      a {
+        text-decoration: none;
+        color: #0645ad;
+      }
+      a.nav-link {
+        color: #0645ad;
+        text-decoration: none;
+        font-family: sans-serif;
+        padding-left: 20px;
+        font-weight: bold;
+      }
+      div.main-page {
+        padding-top: 10px;
+        padding-left: 150px;
+        padding-right: 150px;
+        font-family: sans-serif;
+      }
+      table.infobox {
+        border: 1px solid #a2a9b1;
+        border-spacing: 3px;
+        background-color: #f8f9fa;
+        color: black;
+        margin-top: 0.5em;
+        margin-right: 0px;
+        margin-bottom: 0.5em;
+        margin-left: 1em;
+        padding-top: 0.2em;
+        padding-right: 0.2em;
+        padding-bottom: 0.2em;
+        padding-left: 0.2em;
+        float: right;;
+        clear: right;
+        font-size: 88%;
+        line-height: 1.5em;
+        width: 22em;
+        font-family: inherit;
+      }
+      th.infobox-above {
+        font-size: 125%;
+      }
+      th.infobox-label, td.infoox-data {
+        text-align: left;
+        vertical-align: top;
+        font-size: inherit
+      }
+      th.section-header {
+        background-color: #b3b3b3
+      }
+      h1, h2 {
+        border-bottom: 1px solid #a2a9b1;
+      }
+      h2 {
+        font-weight: normal;
+      }
+      h3 {
+        font-size: 1.2em;
+      }
+      div.plainlist {
+        margin-left: 1em;
+        text-indent: -1em;
+      }
+      ul {
+        list-style: none;
+      }
+      .plainlist ul {
+        line-height: inherit;
+        list-style: none none;
+        margin: 0;
+        padding: 0;
+      }
+      button.sign-button {
+        background-color: #efefef;
+        border: 3;
+        color: black;
+        padding: 15px, 30px;
+        text-align: center;
+        display: inline-block;
+        font-size: 17px;
+        cursor: pointer;
+      }
+    </style>
   </head>
   <body>
     <h3>Sign up with your name</h3>
     <div class="sign-up sign-box">
       <input type="text" class="sign-up-box-input" value="">
+      <button class="sign-up-button sign-button", aria-label="Sign up"></button>
     </div>
     <h4>or</h4>
     <div class="sign-in sign-box">
       <input type="text" class="sign-in-box-input" value="">
+      <button class="sign-up-button sign-button", aria-label="Sign in"></button>
     </div>
     <h3>Sign in with your PIN</h3>
   </body>
